@@ -15,11 +15,16 @@ A Wordpress plugin for rating ideas (not pictures or portfolios) but written pos
       Select position of ratebox in relatiion to title (single post/psge) or float left or
         right of 'content'/'excerpt' on archives (loops).
       
-Front Facing (user) interface automatically inserts a rating box (if auro mode) using filters:
-  the_content and/or the_excerpt, and the_title (suppresses the title if floating rate box).
+Front Facing (user) interface automatically inserts a rating box in auro mode
+
+      Each post is intercepted and a rate box inserted using filters:
+      the_content and/or the_excerpt, and the_title (suppress in archive loops).
+  
   Child themes not needed because the plugin provides overrides using actions:
+  
     template_include (override theme template where necessary) and wp_head (override themne css)
-Modular construction without Oject Oriented OO modules.
+
+  Modular construction without Oject Oriented OO modules.
   
   
   
