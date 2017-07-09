@@ -2,7 +2,9 @@
 A Wordpress plugin for rating ideas (not pictures or portfolios) but written posts and pages 
 
  Admin interface offers language selection and selects post types to be rated.
+   
    for each rated post type:
+   
       Whether visitors can rate ideas or only signed in members (for visitors IP = Identity)
       Ratings can be changed at any time and users can list all ideas they have rated
       Whether a rating box is inserted automatically for this post type or is done manually
